@@ -4,7 +4,7 @@ Another starter template
 ## Features
 
 - ⚡️ [Vite](https://github.com/vitejs/vite)
-- 🧰🗃️ [Vue 3](https://vuejs.org/)
+- 🧰 [Vue 3](https://vuejs.org/)
 - 🔧 [Typescript](https://www.typescriptlang.org/)
 - 🎨 [Tailwind](https://tailwindcss.com/)
 - 🍍 [Pinia](https://pinia.vuejs.org/)
