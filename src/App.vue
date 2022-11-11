@@ -6,6 +6,7 @@ const { t } = useI18n()
   <div
     class="flex flex-col items-center justify-center h-screen w-screen bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 text-slate-100"
   >
+    <a href="https://github.com/aurhell/bienvenue" class="absolute right-0 top-0"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
     <HelloWorld :msg="`${t('common.welcome')} 👋`" />
 
     <p class="flex mx-auto mt-6 text-xl">
