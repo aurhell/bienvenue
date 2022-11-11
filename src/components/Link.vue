@@ -7,7 +7,7 @@ defineProps<{
 <template>
   <a
     :href="url"
-    class="flex align-middle font-medium hover:text-green-700"
+    class="font-medium hover:text-green-700"
     target="_blank"
     rel="noopener"
   >
