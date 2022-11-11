@@ -18,7 +18,7 @@ const { t } = useI18n()
         <li><Link url="https://vuejs.org/"><i-logos-vitejs class="inline-block mr-1" />Vite</Link></li>
         <li><Link url="https://vitejs.dev/"><i-logos-vue class="inline-block mr-1" />Vue 3</Link></li>
         <li><Link url="https://www.typescriptlang.org/"><i-logos-typescript-icon class="inline-block mr-1"/>Typescript</Link></li>
-        <li><Link url="https://tailwindcss.com/"><i-logos-tailwindcss-icon class="inline-block mr-1" />&Tailwind</Link></li>
+        <li><Link url="https://tailwindcss.com/"><i-logos-tailwindcss-icon class="inline-block mr-1" />Tailwind</Link></li>
         <li><Link url="https://pinia.vuejs.org/">🍍 Pinia</Link></li>
         <li><Link url="https://vue-i18n.intlify.dev/">🌐 Vue I18n</Link></li>
         <li><Link url="https://router.vuejs.org/">🛣️ Vue Router</Link></li>
