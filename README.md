@@ -1,4 +1,4 @@
-# Bienvenu
+# Bienvenue
 Another starter template
 
 ## Features
