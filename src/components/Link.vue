@@ -1,6 +1,6 @@
 <script setup lang="ts">
-defineProps<{
-  url: string,
+const { url } = defineProps<{
+  url: string
 }>()
 </script>
 

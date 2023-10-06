@@ -1,3 +1,5 @@
+import 'pinia'
+
 declare interface Window {
   // extend the window
 }
