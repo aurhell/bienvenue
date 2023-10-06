@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "module": "es2022",
-    "target": "es2022",
-    "lib": ["DOM", "es2022"],
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["DOM", "esnext"],
     "strict": true,
     "esModuleInterop": true,
     "jsx": "preserve",
@@ -14,6 +14,7 @@
     "strictNullChecks": true,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "rootDir": "./src",
     "types": [
@@ -26,6 +27,6 @@
       "@/*": ["src/*"],
     }
   },
-  "include": ["**/*.d.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "exclude": ["dist", "node_modules", "cypress"],
+  "include": ["**/*.d.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.json"],
+  "exclude": ["dist", "node_modules"],
 }
