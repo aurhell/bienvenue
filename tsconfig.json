@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "module": "ESNext",
-    "target": "ESNext",
-    "lib": ["DOM", "ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["DOM", "esnext"],
     "strict": true,
     "esModuleInterop": true,
     "jsx": "preserve",
@@ -14,25 +14,19 @@
     "strictNullChecks": true,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "types": [
       "vitest",
       "vite/client",
       "vue/ref-macros",
+      "@intlify/unplugin-vue-i18n/messages",
     ],
     "paths": {
-      "~/*": ["src/*"]
+      "@/*": ["src/*"],
     }
   },
-  "exclude": ["dist", "node_modules", "cypress"],
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
-    },
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.vitest.json"
-    }
-  ],
+  "include": ["**/*.d.ts", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.json"],
+  "exclude": ["dist", "node_modules"],
 }

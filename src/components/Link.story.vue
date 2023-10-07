@@ -2,7 +2,9 @@
 
 <template>
   <Story title="Link">
-    <Link url="https://github.com/aurhell">@aurhell</Link>
+    <Link url="https://github.com/aurhell">
+      @aurhell
+    </Link>
   </Story>
 </template>
 
